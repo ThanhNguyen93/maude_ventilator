@@ -6,8 +6,8 @@
    data wrangling in text, NLP
 ### Tools: 
    scispacy, NLP
-
-<br />
+   
+<hr />
 
 ### Data collection:
 - [ ] collect data using MAUDE API
