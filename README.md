@@ -10,8 +10,7 @@
 <hr />
 
 ### Data collection:
-- [ ] collect data using MAUDE API
-https://github.com/ThanhNguyen93/maude_ventilator/tree/master/1_data_collection
+- [ ] [collect data using MAUDE API](https://github.com/ThanhNguyen93/maude_ventilator/tree/master/1_data_collection)
 
 ### NLP pipeline
 #### 1. Text processing: 
