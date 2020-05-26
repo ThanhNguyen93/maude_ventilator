@@ -9,8 +9,7 @@
    
 <hr />
 
-### [Data collection]((https://github.com/ThanhNguyen93/maude_ventilator/tree/master/1_data_collection)
-)
+### [Data collection](https://github.com/ThanhNguyen93/maude_ventilator/tree/master/1_data_collection)
 - [ ] collect data using MAUDE API
 
 ### NLP pipeline
