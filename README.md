@@ -9,11 +9,12 @@
    
 <hr />
 
-### Data collection:
-- [ ] [collect data using MAUDE API](https://github.com/ThanhNguyen93/maude_ventilator/tree/master/1_data_collection)
+### [Data collection]((https://github.com/ThanhNguyen93/maude_ventilator/tree/master/1_data_collection)
+)
+- [ ] collect data using MAUDE API
 
 ### NLP pipeline
-#### 1. Text processing: 
+#### 1. [Text processing](https://github.com/ThanhNguyen93/maude_ventilator/tree/master/2_text_processing)
 - [ ] using Scispacy, cleaning, normalization, tokenization, stopword removal, POS tagging, stemming and lemmatization
 
 #### 2. Feature extraction
