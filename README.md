@@ -1,8 +1,11 @@
 ## Maude_ventilator
 
-## Topic: exploratory data analysis about ventilator in Maude
-## Method: data wrangling in text, NLP
-## Tools: scispacy, NLP
+### Topic: 
+   exploratory data analysis about ventilator in Maude
+### Method: 
+   data wrangling in text, NLP
+### Tools: 
+   scispacy, NLP
 
 
 
