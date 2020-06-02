@@ -6,8 +6,11 @@ Created on Thu May 14 13:01:57 2020
 @author: thanhng
 """
 <<<<<<< HEAD
+<<<<<<< HEAD
 from clean_text import *
 =======
+=======
+>>>>>>> 04331bdf3a5deabdab65f68dd04ccda7a1d72c3a
 import pandas as pd
 import numpy as np
 import re
@@ -17,6 +20,9 @@ from datetime import datetime
 
 import nltk
 import time
+<<<<<<< HEAD
+>>>>>>> 04331bdf3a5deabdab65f68dd04ccda7a1d72c3a
+=======
 >>>>>>> 04331bdf3a5deabdab65f68dd04ccda7a1d72c3a
 
 
@@ -24,10 +30,13 @@ nlp = spacy.load("en_core_sci_sm")
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 data = pd.read_csv('~/github_vent_data/ventilator_clean.csv')
 
 data.columns
 =======
+=======
+>>>>>>> 04331bdf3a5deabdab65f68dd04ccda7a1d72c3a
 data = pd.read_csv('ventilator_clean.csv')
 
 data_1['event_type'].value_counts()
@@ -37,15 +46,24 @@ data_1 = data.dropna(subset=['event_type'])
 data.isna().sum()
 
 data['event_type']
+<<<<<<< HEAD
+>>>>>>> 04331bdf3a5deabdab65f68dd04ccda7a1d72c3a
+=======
 >>>>>>> 04331bdf3a5deabdab65f68dd04ccda7a1d72c3a
 
 
 #combine text column
 data['text'] = data['event_description'] + ' ' + data['manufacturer_narrative']
 <<<<<<< HEAD
+<<<<<<< HEAD
 data['text_lower'] = data['text'].copy()
 #lower case
 data['text_lower'] = data['text_lower'].str.lower()
+=======
+data['text_clean'] = data['text'].copy()
+#lower case
+data['text_clean'] = data['text_clean'].str.lower()
+>>>>>>> 04331bdf3a5deabdab65f68dd04ccda7a1d72c3a
 =======
 data['text_clean'] = data['text'].copy()
 #lower case
@@ -57,7 +75,10 @@ data['text_clean'] = data['text_clean'].str.lower()
 ######clean text
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 04331bdf3a5deabdab65f68dd04ccda7a1d72c3a
 def LEMMATIZER(doc):
     doc = [token.lemma_ for token in doc if token.lemma_ != '-PRON-']
     doc = u' '.join(doc)
@@ -75,6 +96,9 @@ def REMOVE_PUNCT(doc):
 
 def GET_UNIQUE_WORD(doc):
     return ', '.join(word for word in set(doc.split(' ')))
+<<<<<<< HEAD
+>>>>>>> 04331bdf3a5deabdab65f68dd04ccda7a1d72c3a
+=======
 >>>>>>> 04331bdf3a5deabdab65f68dd04ccda7a1d72c3a
 
 
@@ -108,9 +132,12 @@ data['text_has_stopword'] = data['text_has_stopword'].replace(' none', ' ')
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 start = time.time()
 ngram_df = NGRAM(text_col)
 =======
+=======
+>>>>>>> 04331bdf3a5deabdab65f68dd04ccda7a1d72c3a
 
 data.to_csv('ventilator_clean.csv', index = False)
 
@@ -159,13 +186,19 @@ def NGRAM(text_column):
 
 start = time.time()
 ngram_df = NGRAM(text_column)
+<<<<<<< HEAD
+>>>>>>> 04331bdf3a5deabdab65f68dd04ccda7a1d72c3a
+=======
 >>>>>>> 04331bdf3a5deabdab65f68dd04ccda7a1d72c3a
 print(time.time() - start)
 
 ngram_df.to_csv('vent_ngram.csv', index=False)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 04331bdf3a5deabdab65f68dd04ccda7a1d72c3a
 #extract event_type
 
 def EXTRACT_DATA(col, value):
@@ -174,6 +207,9 @@ def EXTRACT_DATA(col, value):
 
 
 
+<<<<<<< HEAD
+>>>>>>> 04331bdf3a5deabdab65f68dd04ccda7a1d72c3a
+=======
 >>>>>>> 04331bdf3a5deabdab65f68dd04ccda7a1d72c3a
 
 malfunction = EXTRACT_DATA('event_type', "Malfunction")
@@ -219,7 +255,10 @@ for device in devices_interested:
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 04331bdf3a5deabdab65f68dd04ccda7a1d72c3a
 
 
 #get unique word for each row
@@ -242,4 +281,7 @@ data[data['text_unique_word'] == 'none']
 data['text_unique_word']
 
 data.to_csv('ventilator_clean.csv', index = False)
+<<<<<<< HEAD
+>>>>>>> 04331bdf3a5deabdab65f68dd04ccda7a1d72c3a
+=======
 >>>>>>> 04331bdf3a5deabdab65f68dd04ccda7a1d72c3a
