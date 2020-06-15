@@ -5,6 +5,8 @@
 **Method:** data wrangling in text, NLP
 
 **Tools:** scispacy, NLP
+
+**Data source:** https://open.fda.gov/apis/device/event/
    
 <hr />
 
