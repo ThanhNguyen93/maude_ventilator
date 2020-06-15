@@ -9,6 +9,14 @@
    
 <hr />
 
+Background: In the surge of covid and shortage of ventilators, many companies try to make their own ventilator machines. The purpose of this project is to investigate adverse events caused by ventilators using FDA medical device adverse event database. 
+
+More specific, this project only focused on Medtronic Puritan Bennett™ 980 and 840 Ventilator and analyzed what are the main problems with these two series. 
+
+https://hcpresources.medtronic.com/blog/make-the-comparison-the-puritan-bennett-840-versus-the-puritan-bennett-980-ventilators
+
+<hr />
+
 ### [Data collection](https://github.com/ThanhNguyen93/maude_ventilator/tree/master/1_data_collection)
 - [x] collect data using MAUDE API
 
