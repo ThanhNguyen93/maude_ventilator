@@ -1,15 +1,12 @@
 ## Maude_ventilator
 
-### Topic: 
-   exploratory data analysis about ventilator in Maude
-### Method: 
-   data wrangling in text, NLP
-### Tools: 
-   scispacy, NLP
+**Topic:** exploratory data analysis about ventilator in Maude
+**Method:** data wrangling in text, NLP
+**Tools:** scispacy, NLP
    
 <hr />
 
-Background: In the surge of covid and shortage of ventilators, many companies try to make their own ventilator machines. The purpose of this project is to investigate adverse events caused by ventilators using FDA medical device adverse event database. 
+**Background:** In the surge of covid and shortage of ventilators, many companies try to make their own ventilator machines. The purpose of this project is to investigate adverse events caused by ventilators using FDA medical device adverse event database. 
 
 More specific, this project only focused on Medtronic Puritan Bennett™ 980 and 840 Ventilator and analyzed what are the main problems with these two series. 
 
