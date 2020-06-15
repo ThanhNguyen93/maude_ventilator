@@ -15,7 +15,7 @@
 
 **Objectives:** 
 - What are the main problems with these 2 models? 
-- Model 980 is an update version of 840 with many new improvement features. By applying LDA, I want to check if the well-known problems still exist in the new model 980
+- Model 980 is an update version of 840 with many new improvement features. By applying LDA, I want to check if the well-known problems in 840 model still exist in the new model 980
 - Apply unigram, bigram and trigram LDA and compare their performance on these texts
 
 https://hcpresources.medtronic.com/blog/make-the-comparison-the-puritan-bennett-840-versus-the-puritan-bennett-980-ventilators
