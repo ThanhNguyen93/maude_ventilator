@@ -1,16 +1,22 @@
 ## Maude_ventilator
 
-**Topic:** exploratory data analysis about ventilator in Maude
+**Topic:** exploratory data analysis about ventilators in Maude
+
 **Method:** data wrangling in text, NLP
+
 **Tools:** scispacy, NLP
    
 <hr />
 
-**Background:** In the surge of covid and shortage of ventilators, many companies try to make their own ventilator machines. The purpose of this project is to investigate adverse events caused by ventilators using FDA medical device adverse event database. 
+**Background:** In the surge of covid and shortage of ventilators, many companies try to make their own ventilator machines. The purpose of this project is to investigate adverse events caused by ventilators using FDA medical device adverse event database. More specific, this project only focused on Medtronic Puritan Bennett™ 980 and 840 Ventilator and analyzed what are the main problems with these two series. 
 
-More specific, this project only focused on Medtronic Puritan Bennett™ 980 and 840 Ventilator and analyzed what are the main problems with these two series. 
+
+**Objectives:** 
+- what are the main problems with these 2 models? 
+- model 980 is an update version of 840 with many new improvement features. By applying LDA, I want to check if the well-known problems still exist in the new model 980
 
 https://hcpresources.medtronic.com/blog/make-the-comparison-the-puritan-bennett-840-versus-the-puritan-bennett-980-ventilators
+
 
 <hr />
 
